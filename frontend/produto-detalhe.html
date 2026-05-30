@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhe do Produto</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="produto-form.html">Cadastrar</a>
+    </nav>
+
+    <div class="container">
+        <h1>Detalhe do Produto</h1>
+        <div id="msg"></div>
+        <div id="conteudo" class="card">Carregando...</div>
+        <div class="actions" style="margin-top:20px;">
+            <a href="produtos.html" class="btn btn-secondary">← Voltar</a>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script>
+        const params  = new URLSearchParams(window.location.search);
+        const id      = params.get("id");
+        const conteudo = document.getElementById("conteudo");
+        const msg      = document.getElementById("msg");
+
+        async function carregar() {
+            if (!id) { conteudo.textContent = "ID não informado."; return; }
+            const p = await mostrarProduto(id);
+            if (p.erro) { conteudo.textContent = p.erro; return; }
+            conteudo.innerHTML = `
+                <p><span class="label">ID:</span> ${p.id}</p>
+                <p><span class="label">Nome:</span> ${p.nome}</p>
+                <p><span class="label">Descrição:</span> ${p.descricao || "—"}</p>
+                <p><span class="label">Preço:</span> R$ ${p.preco.toFixed(2)}</p>
+                <p><span class="label">Quantidade:</span> ${p.quantidade}</p>
+                <div class="actions" style="margin-top:16px;">
+                    <a href="produto-form.html?id=${p.id}" class="btn btn-primary">Editar</a>
+                    <button class="btn btn-danger" onclick="remover(${p.id})">Deletar</button>
+                </div>
+            `;
+        }
+
+        async function remover(pid) {
+            if (!confirm("Deseja deletar este produto?")) return;
+            const res = await deletarProduto(pid);
+            if (res.mensagem) {
+                msg.innerHTML = '<div class="msg msg-success">Produto deletado. Redirecionando...</div>';
+                setTimeout(() => window.location.href = "produtos.html", 1500);
+            } else {
+                msg.innerHTML = `<div class="msg msg-error">${res.erro}</div>`;
+            }
+        }
+
+        carregar();
+    </script>
+</body>
+</html>

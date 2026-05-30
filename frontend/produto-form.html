@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produto — Formulário</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="produto-form.html">Cadastrar</a>
+    </nav>
+
+    <div class="container">
+        <h1 id="titulo">Cadastrar Produto</h1>
+        <div id="msg"></div>
+        <div class="form-card">
+            <form id="form">
+                <div class="form-group">
+                    <label for="nome">Nome *</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome do produto" required />
+                </div>
+                <div class="form-group">
+                    <label for="descricao">Descrição</label>
+                    <textarea id="descricao" name="descricao" rows="3" placeholder="Descrição opcional"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="preco">Preço (R$) *</label>
+                    <input type="number" id="preco" name="preco" step="0.01" min="0" placeholder="0.00" required />
+                </div>
+                <div class="form-group">
+                    <label for="quantidade">Quantidade</label>
+                    <input type="number" id="quantidade" name="quantidade" min="0" placeholder="0" />
+                </div>
+                <div class="actions">
+                    <button type="submit" class="btn btn-success">Salvar</button>
+                    <a href="produtos.html" class="btn btn-secondary">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const id     = params.get("id");
+        const msg    = document.getElementById("msg");
+
+        if (id) {
+            document.getElementById("titulo").textContent = "Editar Produto";
+            mostrarProduto(id).then(p => {
+                if (p.erro) { msg.innerHTML = `<div class="msg msg-error">${p.erro}</div>`; return; }
+                document.getElementById("nome").value       = p.nome;
+                document.getElementById("descricao").value  = p.descricao || "";
+                document.getElementById("preco").value      = p.preco;
+                document.getElementById("quantidade").value = p.quantidade;
+            });
+        }
+
+        document.getElementById("form").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const dados = {
+                nome:       document.getElementById("nome").value.trim(),
+                descricao:  document.getElementById("descricao").value.trim(),
+                preco:      parseFloat(document.getElementById("preco").value),
+                quantidade: parseInt(document.getElementById("quantidade").value) || 0,
+            };
+
+            let res;
+            if (id) {
+                res = await editarProduto(id, dados);
+            } else {
+                res = await cadastrarProduto(dados);
+            }
+
+            if (res.erro) {
+                msg.innerHTML = `<div class="msg msg-error">${res.erro}</div>`;
+            } else {
+                msg.innerHTML = '<div class="msg msg-success">Salvo com sucesso! Redirecionando...</div>';
+                setTimeout(() => window.location.href = `produto-detalhe.html?id=${res.id}`, 1200);
+            }
+        });
+    </script>
+</body>
+</html>
