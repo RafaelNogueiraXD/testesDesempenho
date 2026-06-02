@@ -1,0 +1,2 @@
+exec
+python main.py --usuarios 50 --rampup 10 --loops 1

@@ -1,0 +1,251 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1780342636169,29,acesso home,200,OK,Thread Group 1-1,text,true,,2584,215,3,3,http://127.0.0.1:5500/frontend/index.html,25,0,18
+1780342636276,2,acesso home,200,OK,Thread Group 1-2,text,true,,2584,215,3,3,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342636476,2,acesso home,200,OK,Thread Group 1-3,text,true,,2584,215,4,4,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342636500,3,vendo produtos,200,OK,Thread Group 1-1,text,true,,2584,215,4,4,http://127.0.0.1:5500/frontend/index.html,3,0,0
+1780342636578,2,vendo produtos,200,OK,Thread Group 1-2,text,true,,2584,215,5,5,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342636676,2,acesso home,200,OK,Thread Group 1-4,text,true,,2584,215,5,5,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342636778,2,vendo produtos,200,OK,Thread Group 1-3,text,true,,2584,215,6,6,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342636808,2,cadastrando produto,200,OK,Thread Group 1-1,text,true,,2584,536,6,6,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342636875,2,acesso home,200,OK,Thread Group 1-5,text,true,,2584,215,6,6,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342636881,1,cadastrando produto,200,OK,Thread Group 1-2,text,true,,2584,536,6,6,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342636978,2,vendo produtos,200,OK,Thread Group 1-4,text,true,,2584,215,7,7,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342637084,2,cadastrando produto,200,OK,Thread Group 1-3,text,true,,2584,536,7,7,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342637084,2,acesso home,200,OK,Thread Group 1-6,text,true,,2584,215,7,7,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342637178,2,vendo produtos,200,OK,Thread Group 1-5,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342637112,135,api - cadastro,201,CREATED,Thread Group 1-1,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,134,0,2
+1780342637274,3,acesso home,200,OK,Thread Group 1-7,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,3,0,1
+1780342637280,1,cadastrando produto,200,OK,Thread Group 1-4,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342637184,136,api - cadastro,201,CREATED,Thread Group 1-2,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,136,0,0
+1780342637388,4,vendo produtos,200,OK,Thread Group 1-6,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,4,0,0
+1780342637389,90,api - cadastro,201,CREATED,Thread Group 1-3,text,true,,321,339,9,9,http://127.0.0.1:5000/api/produtos,89,0,2
+1780342637476,8,acesso home,200,OK,Thread Group 1-8,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,8,0,3
+1780342637482,5,cadastrando produto,200,OK,Thread Group 1-5,text,true,,2584,536,9,9,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,5,0,0
+1780342637547,2,vendo produtos,200,OK,Thread Group 1-1,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342637577,2,vendo produtos,200,OK,Thread Group 1-7,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342637621,1,vendo produtos,200,OK,Thread Group 1-2,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342637582,92,api - cadastro,201,CREATED,Thread Group 1-4,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,91,0,0
+1780342637674,2,acesso home,200,OK,Thread Group 1-9,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342637693,2,cadastrando produto,200,OK,Thread Group 1-6,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342637780,1,vendo produtos,200,OK,Thread Group 1-3,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342637785,1,vendo produtos,200,OK,Thread Group 1-8,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342637874,3,acesso home,200,OK,Thread Group 1-10,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,3,0,1
+1780342637789,88,api - cadastro,201,CREATED,Thread Group 1-5,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,88,0,1
+1780342637880,1,cadastrando produto,200,OK,Thread Group 1-7,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342637974,1,vendo produtos,200,OK,Thread Group 1-4,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342637976,1,vendo produtos,200,OK,Thread Group 1-9,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342638077,2,acesso home,200,OK,Thread Group 1-11,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342638086,2,cadastrando produto,200,OK,Thread Group 1-8,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342637996,113,api - cadastro,201,CREATED,Thread Group 1-6,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,113,0,1
+1780342638177,1,vendo produtos,200,OK,Thread Group 1-10,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342638177,1,vendo produtos,200,OK,Thread Group 1-5,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342638182,96,api - cadastro,201,CREATED,Thread Group 1-7,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,96,0,0
+1780342638275,8,acesso home,200,OK,Thread Group 1-12,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,8,0,2
+1780342638278,5,cadastrando produto,200,OK,Thread Group 1-9,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,5,0,0
+1780342638380,5,vendo produtos,200,OK,Thread Group 1-11,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,5,0,0
+1780342638411,4,vendo produtos,200,OK,Thread Group 1-6,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,4,0,0
+1780342638475,9,acesso home,200,OK,Thread Group 1-13,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,9,0,2
+1780342638478,11,cadastrando produto,200,OK,Thread Group 1-10,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,11,0,0
+1780342638390,144,api - cadastro,201,CREATED,Thread Group 1-8,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,144,0,2
+1780342638579,5,vendo produtos,200,OK,Thread Group 1-7,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,4,0,0
+1780342638584,5,vendo produtos,200,OK,Thread Group 1-12,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,5,0,0
+1780342638676,2,acesso home,200,OK,Thread Group 1-14,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342638586,99,api - cadastro,201,CREATED,Thread Group 1-9,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,99,0,2
+1780342638687,1,cadastrando produto,200,OK,Thread Group 1-11,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342638785,2,vendo produtos,200,OK,Thread Group 1-13,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342638835,2,vendo produtos,200,OK,Thread Group 1-8,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342638791,85,api - cadastro,201,CREATED,Thread Group 1-10,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,85,0,0
+1780342638876,2,acesso home,200,OK,Thread Group 1-15,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342638890,1,cadastrando produto,200,OK,Thread Group 1-12,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342638978,2,vendo produtos,200,OK,Thread Group 1-14,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342638985,1,vendo produtos,200,OK,Thread Group 1-9,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342639076,2,acesso home,200,OK,Thread Group 1-16,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342639087,2,cadastrando produto,200,OK,Thread Group 1-13,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342638990,128,api - cadastro,201,CREATED,Thread Group 1-11,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,128,0,0
+1780342639176,2,vendo produtos,200,OK,Thread Group 1-10,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342639177,2,vendo produtos,200,OK,Thread Group 1-15,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342639192,85,api - cadastro,201,CREATED,Thread Group 1-12,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,84,0,0
+1780342639274,4,acesso home,200,OK,Thread Group 1-17,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,4,0,1
+1780342639280,1,cadastrando produto,200,OK,Thread Group 1-14,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342639378,2,vendo produtos,200,OK,Thread Group 1-16,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342639418,2,vendo produtos,200,OK,Thread Group 1-11,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342639474,2,acesso home,200,OK,Thread Group 1-18,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342639478,2,cadastrando produto,200,OK,Thread Group 1-15,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342639389,97,api - cadastro,201,CREATED,Thread Group 1-13,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,96,0,0
+1780342639577,2,vendo produtos,200,OK,Thread Group 1-12,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342639578,2,vendo produtos,200,OK,Thread Group 1-17,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342639674,1,acesso home,200,OK,Thread Group 1-19,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342639680,2,cadastrando produto,200,OK,Thread Group 1-16,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342639584,168,api - cadastro,201,CREATED,Thread Group 1-14,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,168,0,1
+1780342639776,2,vendo produtos,200,OK,Thread Group 1-18,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342639785,2,vendo produtos,200,OK,Thread Group 1-13,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342639874,2,acesso home,200,OK,Thread Group 1-20,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342639880,2,cadastrando produto,200,OK,Thread Group 1-17,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342639781,137,api - cadastro,201,CREATED,Thread Group 1-15,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,137,0,0
+1780342639975,2,vendo produtos,200,OK,Thread Group 1-19,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342640052,2,vendo produtos,200,OK,Thread Group 1-14,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342640080,1,cadastrando produto,200,OK,Thread Group 1-18,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342640080,2,acesso home,200,OK,Thread Group 1-21,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342639982,117,api - cadastro,201,CREATED,Thread Group 1-16,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,117,0,0
+1780342640176,1,vendo produtos,200,OK,Thread Group 1-20,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342640219,3,vendo produtos,200,OK,Thread Group 1-15,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342640275,1,acesso home,200,OK,Thread Group 1-22,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342640276,1,cadastrando produto,200,OK,Thread Group 1-19,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342640182,116,api - cadastro,201,CREATED,Thread Group 1-17,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,116,0,0
+1780342640383,1,vendo produtos,200,OK,Thread Group 1-21,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342640399,2,vendo produtos,200,OK,Thread Group 1-16,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342640475,1,acesso home,200,OK,Thread Group 1-23,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342640478,1,cadastrando produto,200,OK,Thread Group 1-20,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342640382,136,api - cadastro,201,CREATED,Thread Group 1-18,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,136,0,1
+1780342640577,1,vendo produtos,200,OK,Thread Group 1-22,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342640599,1,vendo produtos,200,OK,Thread Group 1-17,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342640578,98,api - cadastro,201,CREATED,Thread Group 1-19,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,98,0,0
+1780342640676,1,acesso home,200,OK,Thread Group 1-24,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342640684,1,cadastrando produto,200,OK,Thread Group 1-21,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342640777,1,vendo produtos,200,OK,Thread Group 1-23,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342640818,2,vendo produtos,200,OK,Thread Group 1-18,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342640779,84,api - cadastro,201,CREATED,Thread Group 1-20,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,84,0,0
+1780342640875,2,acesso home,200,OK,Thread Group 1-25,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342640878,1,cadastrando produto,200,OK,Thread Group 1-22,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342640976,1,vendo produtos,200,OK,Thread Group 1-19,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342640978,1,vendo produtos,200,OK,Thread Group 1-24,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342641086,2,cadastrando produto,200,OK,Thread Group 1-23,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342641087,1,acesso home,200,OK,Thread Group 1-26,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342640986,158,api - cadastro,201,CREATED,Thread Group 1-21,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,158,0,0
+1780342641162,2,vendo produtos,200,OK,Thread Group 1-20,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342641176,2,vendo produtos,200,OK,Thread Group 1-25,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342641179,107,api - cadastro,201,CREATED,Thread Group 1-22,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,107,0,0
+1780342641286,2,cadastrando produto,200,OK,Thread Group 1-24,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342641287,1,acesso home,200,OK,Thread Group 1-27,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342641394,2,vendo produtos,200,OK,Thread Group 1-26,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342641456,1,vendo produtos,200,OK,Thread Group 1-21,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342641487,2,cadastrando produto,200,OK,Thread Group 1-25,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342641488,2,acesso home,200,OK,Thread Group 1-28,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342641395,100,api - cadastro,201,CREATED,Thread Group 1-23,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,100,0,0
+1780342641595,2,vendo produtos,200,OK,Thread Group 1-27,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342641595,2,vendo produtos,200,OK,Thread Group 1-22,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342641673,1,acesso home,200,OK,Thread Group 1-29,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342641704,2,cadastrando produto,200,OK,Thread Group 1-26,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342641596,121,api - cadastro,201,CREATED,Thread Group 1-24,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,121,0,0
+1780342641798,2,vendo produtos,200,OK,Thread Group 1-28,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342641798,2,vendo produtos,200,OK,Thread Group 1-23,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342641877,1,acesso home,200,OK,Thread Group 1-30,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342641909,5,cadastrando produto,200,OK,Thread Group 1-27,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,4,0,0
+1780342641799,126,api - cadastro,201,CREATED,Thread Group 1-25,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,126,0,0
+1780342641986,2,vendo produtos,200,OK,Thread Group 1-29,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342642032,2,vendo produtos,200,OK,Thread Group 1-24,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342642080,1,acesso home,200,OK,Thread Group 1-31,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342642100,2,cadastrando produto,200,OK,Thread Group 1-28,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342642178,2,vendo produtos,200,OK,Thread Group 1-30,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342642018,166,api - cadastro,201,CREATED,Thread Group 1-26,text,true,,321,339,9,9,http://127.0.0.1:5000/api/produtos,166,0,0
+1780342642226,1,vendo produtos,200,OK,Thread Group 1-25,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342642274,2,acesso home,200,OK,Thread Group 1-32,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342642287,2,cadastrando produto,200,OK,Thread Group 1-29,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342642215,135,api - cadastro,201,CREATED,Thread Group 1-27,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,135,0,0
+1780342642382,1,vendo produtos,200,OK,Thread Group 1-31,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342642473,1,acesso home,200,OK,Thread Group 1-33,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342642480,1,cadastrando produto,200,OK,Thread Group 1-30,text,true,,2584,536,9,9,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342642484,1,vendo produtos,200,OK,Thread Group 1-26,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342642402,93,api - cadastro,201,CREATED,Thread Group 1-28,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,93,0,1
+1780342642576,2,vendo produtos,200,OK,Thread Group 1-32,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342642650,2,vendo produtos,200,OK,Thread Group 1-27,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342642674,2,acesso home,200,OK,Thread Group 1-34,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342642684,1,cadastrando produto,200,OK,Thread Group 1-31,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342642589,108,api - cadastro,201,CREATED,Thread Group 1-29,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,108,0,1
+1780342642775,2,vendo produtos,200,OK,Thread Group 1-33,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342642795,2,vendo produtos,200,OK,Thread Group 1-28,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342642874,1,acesso home,200,OK,Thread Group 1-35,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342642878,2,cadastrando produto,200,OK,Thread Group 1-32,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342642976,1,vendo produtos,200,OK,Thread Group 1-34,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342642998,1,vendo produtos,200,OK,Thread Group 1-29,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342642783,224,api - cadastro,201,CREATED,Thread Group 1-30,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,224,0,0
+1780342643073,3,acesso home,200,OK,Thread Group 1-36,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,3,0,0
+1780342643088,1,cadastrando produto,200,OK,Thread Group 1-33,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342642985,121,api - cadastro,201,CREATED,Thread Group 1-31,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,121,0,1
+1780342643176,1,vendo produtos,200,OK,Thread Group 1-35,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342643180,82,api - cadastro,201,CREATED,Thread Group 1-32,text,true,,321,339,9,9,http://127.0.0.1:5000/api/produtos,81,0,1
+1780342643273,1,acesso home,200,OK,Thread Group 1-37,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342643277,1,cadastrando produto,200,OK,Thread Group 1-34,text,true,,2584,536,9,9,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342643308,2,vendo produtos,200,OK,Thread Group 1-30,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342643376,2,vendo produtos,200,OK,Thread Group 1-36,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342643406,1,vendo produtos,200,OK,Thread Group 1-31,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342643390,85,api - cadastro,201,CREATED,Thread Group 1-33,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,85,0,1
+1780342643473,4,acesso home,200,OK,Thread Group 1-38,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,4,0,1
+1780342643478,1,cadastrando produto,200,OK,Thread Group 1-35,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342643562,1,vendo produtos,200,OK,Thread Group 1-32,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342643575,1,vendo produtos,200,OK,Thread Group 1-37,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342643673,2,acesso home,200,OK,Thread Group 1-39,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342643678,1,cadastrando produto,200,OK,Thread Group 1-36,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342643579,164,api - cadastro,201,CREATED,Thread Group 1-34,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,164,0,0
+1780342643776,1,vendo produtos,200,OK,Thread Group 1-33,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342643778,1,vendo produtos,200,OK,Thread Group 1-38,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342643872,2,acesso home,200,OK,Thread Group 1-40,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342643876,1,cadastrando produto,200,OK,Thread Group 1-37,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342643780,115,api - cadastro,201,CREATED,Thread Group 1-35,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,115,0,0
+1780342643975,2,vendo produtos,200,OK,Thread Group 1-39,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342644044,1,vendo produtos,200,OK,Thread Group 1-34,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342644075,1,acesso home,200,OK,Thread Group 1-41,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342643979,107,api - cadastro,201,CREATED,Thread Group 1-36,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,107,0,1
+1780342644089,1,cadastrando produto,200,OK,Thread Group 1-38,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342644174,1,vendo produtos,200,OK,Thread Group 1-40,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342644195,1,vendo produtos,200,OK,Thread Group 1-35,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342644274,1,acesso home,200,OK,Thread Group 1-42,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342644277,2,cadastrando produto,200,OK,Thread Group 1-39,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342644177,120,api - cadastro,201,CREATED,Thread Group 1-37,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,120,0,1
+1780342644377,1,vendo produtos,200,OK,Thread Group 1-41,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342644386,1,vendo produtos,200,OK,Thread Group 1-36,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342644474,2,acesso home,200,OK,Thread Group 1-43,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342644476,1,cadastrando produto,200,OK,Thread Group 1-40,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342644391,94,api - cadastro,201,CREATED,Thread Group 1-38,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,94,0,1
+1780342644575,2,vendo produtos,200,OK,Thread Group 1-42,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342644597,2,vendo produtos,200,OK,Thread Group 1-37,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342644673,1,acesso home,200,OK,Thread Group 1-44,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342644678,1,cadastrando produto,200,OK,Thread Group 1-41,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342644580,187,api - cadastro,201,CREATED,Thread Group 1-39,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,186,0,0
+1780342644776,3,vendo produtos,200,OK,Thread Group 1-43,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,3,0,0
+1780342644785,2,vendo produtos,200,OK,Thread Group 1-38,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342644874,1,acesso home,200,OK,Thread Group 1-45,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342644876,1,cadastrando produto,200,OK,Thread Group 1-42,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342644778,119,api - cadastro,201,CREATED,Thread Group 1-40,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,119,0,1
+1780342644975,2,vendo produtos,200,OK,Thread Group 1-44,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342645067,2,vendo produtos,200,OK,Thread Group 1-39,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342645077,1,acesso home,200,OK,Thread Group 1-46,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342645092,2,cadastrando produto,200,OK,Thread Group 1-43,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342644981,127,api - cadastro,201,CREATED,Thread Group 1-41,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,127,0,0
+1780342645175,2,vendo produtos,200,OK,Thread Group 1-45,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342645198,2,vendo produtos,200,OK,Thread Group 1-40,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342645273,2,acesso home,200,OK,Thread Group 1-47,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342645277,1,cadastrando produto,200,OK,Thread Group 1-44,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342645178,107,api - cadastro,201,CREATED,Thread Group 1-42,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,107,0,0
+1780342645379,3,vendo produtos,200,OK,Thread Group 1-46,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,3,0,0
+1780342645408,1,vendo produtos,200,OK,Thread Group 1-41,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342645472,2,acesso home,200,OK,Thread Group 1-48,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342645477,1,cadastrando produto,200,OK,Thread Group 1-45,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342645394,103,api - cadastro,201,CREATED,Thread Group 1-43,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,103,0,1
+1780342645575,2,vendo produtos,200,OK,Thread Group 1-47,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342645585,1,vendo produtos,200,OK,Thread Group 1-42,text,true,,2584,215,9,9,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342645674,1,acesso home,200,OK,Thread Group 1-49,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342645682,1,cadastrando produto,200,OK,Thread Group 1-46,text,true,,2584,536,8,8,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,1,0,0
+1780342645578,197,api - cadastro,201,CREATED,Thread Group 1-44,text,true,,321,339,8,8,http://127.0.0.1:5000/api/produtos,197,0,1
+1780342645774,2,vendo produtos,200,OK,Thread Group 1-48,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342645798,2,vendo produtos,200,OK,Thread Group 1-43,text,true,,2584,215,8,8,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342645885,2,cadastrando produto,200,OK,Thread Group 1-47,text,true,,2584,536,7,7,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342645885,2,acesso home,200,OK,Thread Group 1-50,text,true,,2584,215,7,7,http://127.0.0.1:5500/frontend/index.html,2,0,1
+1780342645778,131,api - cadastro,201,CREATED,Thread Group 1-45,text,true,,321,339,7,7,http://127.0.0.1:5000/api/produtos,131,0,1
+1780342645979,2,vendo produtos,200,OK,Thread Group 1-49,text,true,,2584,215,7,7,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342645995,89,api - cadastro,201,CREATED,Thread Group 1-46,text,true,,321,339,7,7,http://127.0.0.1:5000/api/produtos,89,0,0
+1780342646089,2,cadastrando produto,200,OK,Thread Group 1-48,text,true,,2584,536,7,7,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342646089,2,vendo produtos,200,OK,Thread Group 1-44,text,true,,2584,215,7,7,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342646203,6,vendo produtos,200,OK,Thread Group 1-50,text,true,,2584,215,6,6,http://127.0.0.1:5500/frontend/index.html,6,0,0
+1780342646217,2,vendo produtos,200,OK,Thread Group 1-45,text,true,,2584,215,6,6,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342646203,73,api - cadastro,201,CREATED,Thread Group 1-47,text,true,,321,339,5,5,http://127.0.0.1:5000/api/produtos,73,0,1
+1780342646295,2,cadastrando produto,200,OK,Thread Group 1-49,text,true,,2584,536,5,5,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,2,0,0
+1780342646389,2,vendo produtos,200,OK,Thread Group 1-46,text,true,,2584,215,5,5,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342646512,4,cadastrando produto,200,OK,Thread Group 1-50,text,true,,2584,536,4,4,http://127.0.0.1:5500/frontend/index.html?nome=rafael&descricao=uma+descri%C3%A7%C3%A3o+bem+grande%2C+uma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grandeuma+descri%C3%A7%C3%A3o+bem+grande&preco=17&quantidade=1,4,0,0
+1780342646406,149,api - cadastro,201,CREATED,Thread Group 1-48,text,true,,321,339,4,4,http://127.0.0.1:5000/api/produtos,149,0,1
+1780342646588,1,vendo produtos,200,OK,Thread Group 1-47,text,true,,2584,215,4,4,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342646605,102,api - cadastro,201,CREATED,Thread Group 1-49,text,true,,321,339,3,3,http://127.0.0.1:5000/api/produtos,102,0,0
+1780342646870,2,vendo produtos,200,OK,Thread Group 1-48,text,true,,2584,215,3,3,http://127.0.0.1:5500/frontend/index.html,2,0,0
+1780342646824,86,api - cadastro,201,CREATED,Thread Group 1-50,text,true,,321,339,2,2,http://127.0.0.1:5000/api/produtos,85,0,0
+1780342647014,1,vendo produtos,200,OK,Thread Group 1-49,text,true,,2584,215,2,2,http://127.0.0.1:5500/frontend/index.html,1,0,0
+1780342647221,1,vendo produtos,200,OK,Thread Group 1-50,text,true,,2584,215,1,1,http://127.0.0.1:5500/frontend/index.html,1,0,0
